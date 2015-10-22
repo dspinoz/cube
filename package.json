@@ -18,7 +18,7 @@
   "dependencies": {
     "mongodb": "^2.2.25",
     "node-static": "0.6.5",
-    "pegjs": "0.7.0",
+    "pegjs": "0.6.2",
     "vows": "0.7.0",
     "websocket": "1.0.8",
     "node-websocket-server": "1.1.4"

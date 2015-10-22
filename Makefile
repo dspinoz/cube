@@ -1,5 +1,5 @@
-JS_TESTER = ./node_modules/vows/bin/vows
-PEG_COMPILER = ./node_modules/pegjs/bin/pegjs
+JS_TESTER = /usr/bin/vows
+PEG_COMPILER = /usr/bin/pegjs
 
 .PHONY: test
 
