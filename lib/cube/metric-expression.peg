@@ -184,6 +184,7 @@ reduce
   / "max"
   / "distinct"
   / "median"
+  / "distinct_each"
 
 type
   = first:[a-z] rest:[a-zA-Z0-9_]+ { return first + rest.join(""); }
