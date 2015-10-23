@@ -12,7 +12,7 @@ suite.addBatch({
         keys.push(key);
       }
       keys.sort();
-      assert.deepEqual(keys, ["distinct", "max", "median", "min", "sum"]);
+      assert.deepEqual(keys, ["distinct", "distinct_each", "max", "median", "min", "sum"]);
     }
   },
 
