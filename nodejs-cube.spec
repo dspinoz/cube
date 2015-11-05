@@ -19,7 +19,7 @@ Source:			cube-0.2.12-5.tgz
 BuildArch:      noarch
 ExclusiveArch:  %{ix86} x86_64 %{arm} noarch
 
-Requires:       nodejs-ctype mongodb-server
+Requires:       nodejs-ctype /usr/bin/mongod
 BuildRequires:  nodejs-devel nodejs-vows nodejs-pegjs
 
 %description
