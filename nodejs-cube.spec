@@ -2,7 +2,7 @@
 
 Name:           nodejs-cube
 Version:        0.2.12
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Cube is a system for collecting timestamped events and deriving metrics.
 
 Group:          Node
@@ -14,7 +14,7 @@ License:        Apache License, Version 2.0
 # Fork - Github
 #URL:            https://github.com/dspinoz/cube/archive/master.tgz
 
-Source:			cube-0.2.12-5.tgz
+Source:			cube-0.2.12-6.tgz
 
 BuildArch:      noarch
 ExclusiveArch:  %{ix86} x86_64 %{arm} noarch
@@ -95,6 +95,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Nov 05 2015 Daniel Spinozzi <dspinoz@gmail.com> - 0.2.12-6
+- Allow any reducer values values to be saved into database, not just Double
+- distinct_each returns an array containing a set of objects with key and value attributes
 * Thu Oct 22 2015 Daniel Spinozzi <dspinoz@gmail.com> - 0.2.12-5
 - add distinct_each reducer
 - better error reporting for event and metric parsers
