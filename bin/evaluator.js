@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var options = require("/etc/cube/evaluator-config"),
-    cube = require("cube"),
+var options = require("./evaluator-config"),
+    cube = require(".."),
     server = cube.server(options);
 
 server.register = function(db, endpoints) {
